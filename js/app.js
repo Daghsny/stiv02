@@ -89,6 +89,19 @@ const coursesData = [
         dateAdded: "2022-11-15",
         pdfUrl: "assets/css_animations.pdf",
         thumbnail: "https://picsum.photos/id/6/600/350"
+    } ,
+    {
+        id: 8,
+        title: "SQL",
+        category: "Cours",
+        icon: "ph-laptop",
+        colorClass: "card-pink",
+        rating: 4.8,
+        students: "9,530 students",
+        type: "Course",
+        dateAdded: "2023-10-25",
+        pdfUrl: "assets/ccna_bootcamp.pdf",
+        thumbnail: "https://picsum.photos/id/1/600/350"
     }
 ];
 
@@ -411,3 +424,4 @@ function renderCalendar() {
 initTheme();
 renderCourses(coursesData);
 renderRecentFiles();
+
